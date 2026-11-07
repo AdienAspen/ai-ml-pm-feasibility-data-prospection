@@ -47,3 +47,5 @@ These adaptations are disclosed because their outputs must not be treated as a r
 The source-dependent scripts expect controlled inputs in their named `data/`, `reference_layer/`, or stage `outputs/` locations. No such inputs are provided here. Put only data you have rights to use into a separate controlled environment; do not commit operational records, derived term lists, visible annotation packages, model weights, or response files to this repository.
 
 The published policies and [`docs/method.md`](method.md) explain the decisions even when a script cannot be run against the original inputs.
+
+[`scripts/check_release_safety.py`](../scripts/check_release_safety.py) checks tracked paths and artifact types. In a controlled release, its local restricted-term file supplies the additional name and value screen; that file is intentionally absent here. Passing the path check alone is not a complete disclosure review.
