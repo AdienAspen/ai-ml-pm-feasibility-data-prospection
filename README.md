@@ -90,7 +90,7 @@ docs/method.md                    pipeline and controls
 docs/evidence-and-evaluation.md  provenance and evaluation design
 docs/engineering-findings.md     reviewed findings and next decisions
 templates/                        signal-report template and blank CSV
-LICENSE                           Apache License 2.0
+LICENSE                           MIT License
 ```
 
 ## Reproduction and use
