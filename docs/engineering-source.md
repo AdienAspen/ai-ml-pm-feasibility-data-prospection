@@ -33,6 +33,7 @@ The public edition removes original records, generated vocabularies, catalog con
 | File or area | Adaptation |
 |---|---|
 | `schema_profile.py` and `catalog_loader.py` | Generic asset and catalog hints replace source-specific identifiers. |
+| `t8b_lexical_consolidation_pass.py`, `f1d2_semantic_domain_grouping.py`, and `f1d4_semantic_grouping_with_aliases.py` | The controlled abbreviation map is omitted; the grouping and normalization flow remains inspectable. |
 | `g20c_step2_filtering.py` | A library stopword set replaces the corpus-derived boilerplate list; restricted entity terms must be supplied in the controlled environment. |
 | `g03_inter_annotator_agreement.py` | Repository root is derived from the script location. |
 | `g20ef_validate_responses.py` | Response validation reads the supplied catalog list without hard-coded original cardinalities. |
