@@ -89,13 +89,20 @@ docs/source-card.md               source shapes and quality conditions
 docs/method.md                    pipeline and controls
 docs/evidence-and-evaluation.md  provenance and evaluation design
 docs/engineering-findings.md     reviewed findings and next decisions
+docs/engineering-source.md       code map, stage sequence, and publication adaptations
+src/asset_ml_feasibility/        selected inventory, profiling, and evidence modules
+scripts/                         entry points for selected prospection modules
+stint-1.1-reference-layer/       reference-source policies and diagnostics
+stint-1-evidence-ground-truth/   evidence and denominator engineering
+stint-2-target-ml-prototyping/   evaluation and target-prototyping methods
+study_methods/                   data-free semantic grouping and profile scoping
 templates/                        signal-report template and blank CSV
 LICENSE                           MIT License
 ```
 
 ## Reproduction and use
 
-This repository supports **method review and reuse of the decision template**. It is not an end-to-end runner for the original study. Source-dependent computation requires a controlled environment, reference inputs, and data rights outside this publication. Readers can inspect the stages, adapt the scorecard, and apply the same evidence gates to their own authorized data.
+This repository supports **method review, code inspection, and reuse of the decision template**. It is not an end-to-end runner for the original study. Source-dependent computation requires a controlled environment, reference inputs, and data rights outside this publication. The [engineering source map](docs/engineering-source.md) identifies the included code, its sequence, and the public adaptations.
 
 Keep every figure tied to its target, source path, registration level, counting unit, eligible universe, evidence level, and source. Freeze thresholds and prototype construction before evaluating on held-out material. Never aggregate incompatible paths or infer code accuracy from an anchor count.
 
