@@ -14,6 +14,8 @@ This repository preserves selected engineering files from successive study stage
 
 The original stage names are retained to show the order in which evidence and modeling questions were addressed. The public `main` branch is a new, reviewed history rather than a fork of the restricted operational history.
 
+Detailed decision records include [physical record identity](../stint-1-evidence-ground-truth/docs/decisions/DELTA-0002-record-identifier.md), the [normalization sequence](../stint-1.1-reference-layer/reference_layer/semantic_normalisation/normalisation_pipeline_spec.md), and the [structural resolution chain](structural-resolution.md).
+
 ## Method sequence
 
 1. Inventory source families and inspect structures before using their text.
