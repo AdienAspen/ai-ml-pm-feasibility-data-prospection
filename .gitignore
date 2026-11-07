@@ -1,0 +1,23 @@
+# Keep source and derived record-level material out of this publication.
+data/
+internal/
+**/internal/
+artifacts/
+outputs/
+*.csv
+!templates/signal_report_template.csv
+*.tsv
+*.jsonl
+*.ipynb
+*.pkl
+*.joblib
+*.safetensors
+*.parquet
+*.xlsx
+*.xls
+*.pdf
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+.venv/
